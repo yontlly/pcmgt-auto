@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="227208ed-5876-454b-b25f-536d16a9458e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hwQ5mYZv1xWKJngAlLczvvna0W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testjob_218" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yanghua1\PycharmProjects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.allTest">
+    <configuration name="allTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testjob" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/allTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testjob" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testCase.test_login.manTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="testjob" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCase.test_login.manTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testCase.test_login.manTest.test_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="testjob" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCase.test_login.manTest.test_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="testjob" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.allTest" />
+        <item itemvalue="Python tests.Unittests for testCase.test_login.manTest" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python tests.Unittests in test_login.py" />
+        <item itemvalue="Python tests.Unittests for testCase.test_login.manTest.test_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="227208ed-5876-454b-b25f-536d16a9458e" name="Default Changelist" comment="" />
+      <created>1600919494404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600919494404</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="639" y="196" key="FileChooserDialogImpl" timestamp="1602560933641">
+      <screen x="0" y="0" width="1718" height="886" />
+    </state>
+    <state x="539" y="186" key="FileChooserDialogImpl/0.0.1449.839@0.0.1449.839" timestamp="1602221185294" />
+    <state x="637" y="196" key="FileChooserDialogImpl/0.0.1714.882@0.0.1714.882" timestamp="1601444299561" />
+    <state x="639" y="196" key="FileChooserDialogImpl/0.0.1718.886@0.0.1718.886" timestamp="1602560933641" />
+    <state width="1693" height="230" key="GridCell.Tab.0.bottom" timestamp="1601437946661">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="230" key="GridCell.Tab.0.bottom/0.0.1714.882@0.0.1714.882" timestamp="1601437946661" />
+    <state width="1693" height="230" key="GridCell.Tab.0.center" timestamp="1601437946658">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="230" key="GridCell.Tab.0.center/0.0.1714.882@0.0.1714.882" timestamp="1601437946658" />
+    <state width="1693" height="230" key="GridCell.Tab.0.left" timestamp="1601437946655">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="230" key="GridCell.Tab.0.left/0.0.1714.882@0.0.1714.882" timestamp="1601437946655" />
+    <state width="1693" height="230" key="GridCell.Tab.0.right" timestamp="1601437946661">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="230" key="GridCell.Tab.0.right/0.0.1714.882@0.0.1714.882" timestamp="1601437946661" />
+    <state width="1693" height="284" key="GridCell.Tab.1.bottom" timestamp="1601367622848">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="284" key="GridCell.Tab.1.bottom/0.0.1714.882@0.0.1714.882" timestamp="1601367622848" />
+    <state width="1693" height="284" key="GridCell.Tab.1.center" timestamp="1601367622848">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="284" key="GridCell.Tab.1.center/0.0.1714.882@0.0.1714.882" timestamp="1601367622848" />
+    <state width="1693" height="284" key="GridCell.Tab.1.left" timestamp="1601367622848">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="284" key="GridCell.Tab.1.left/0.0.1714.882@0.0.1714.882" timestamp="1601367622848" />
+    <state width="1693" height="284" key="GridCell.Tab.1.right" timestamp="1601367622848">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state width="1693" height="284" key="GridCell.Tab.1.right/0.0.1714.882@0.0.1714.882" timestamp="1601367622848" />
+    <state x="543" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1602560922433">
+      <screen x="0" y="0" width="1718" height="886" />
+    </state>
+    <state x="559" y="308" key="com.intellij.ide.util.TipDialog/0.0.1449.839@0.0.1449.839" timestamp="1602221068619" />
+    <state x="542" y="265" key="com.intellij.ide.util.TipDialog/0.0.1714.882@0.0.1714.882" timestamp="1600919524537" />
+    <state x="543" y="266" key="com.intellij.ide.util.TipDialog/0.0.1718.886@0.0.1718.886" timestamp="1602560922433" />
+    <state x="137" y="241" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601367603138">
+      <screen x="0" y="0" width="1714" height="882" />
+    </state>
+    <state x="137" y="241" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1714.882@0.0.1714.882" timestamp="1601367603138" />
+  </component>
+</project>
