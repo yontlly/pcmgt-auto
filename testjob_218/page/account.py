@@ -71,6 +71,7 @@ class Account(WebDriver):
         self.findElements(*self.tree_root)[0].click()
         self.findElement(*self.add_dept).click()
         self.findElement(*self.add_dept_name).send_keys(name)
+        t.sleep(2)
         try:
             self.findElement(*self.created_dept_group)
         except:
