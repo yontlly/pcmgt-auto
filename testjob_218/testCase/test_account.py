@@ -13,11 +13,11 @@ class accountTest(unittest.TestCase,Account,OperationData):
     def setUpClass(cls):
         chrome_path = 'C:\Program Files\Google\Chrome\Application\chromedriver.exe'
         cls.driver = webdriver.Chrome(executable_path=chrome_path)
-        cls.driver.get('http://10.206.83.102:8787/pc-management/#/login')
+        cls.driver.get('http://192.168.1.165:8787/pc-management/#/login')
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(10)
-        cls.driver.find_element_by_id('userName').send_keys('yanghua')
-        cls.driver.find_element_by_id('password').send_keys('11111112')
+        cls.driver.find_element_by_id('userName').send_keys('yanghua275')
+        cls.driver.find_element_by_id('password').send_keys('Aa123123')
         cls.driver.find_element_by_xpath('//*[@class="ant-btn login-form-button ant-btn-primary"]').click()
 
     @classmethod

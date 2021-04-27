@@ -6,9 +6,6 @@ from utils.operationData import *
 from ddt import ddt,unpack,data
 import time as t
 
-
-
-@ddt
 class accountTest(unittest.TestCase,Account,groupMgt,OperationData):
     @classmethod
     def setUpClass(cls):
