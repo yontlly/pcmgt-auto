@@ -13,7 +13,7 @@ class Account(WebDriver):
 
     #选择组织树
     tree_root=(By.CLASS_NAME,'ant-tree-title')#组织树根
-    tree_under=(By.CLASS_NAME,'ant-tree-node-content-wrapper.ant-tree-node-content-wrapper-normal.draggable')
+    tree_under=(By.CLASS_NAME,'ant-tree-title')
 
     #部门的增删改元素
     add_dept=(By.CLASS_NAME,'ant-btn.addpart.ant-btn-primary')#添加子部门
@@ -41,6 +41,7 @@ class Account(WebDriver):
 
 
     userinfo=(By.CLASS_NAME,'ant-input')#索引0为搜索框;1姓名;5邮箱
+    userpassword=(By.ID,'pwd')
     userinfo_has=(By.CLASS_NAME,'ant-form-item-control.has-success')#has-success表示成员信息中已有值
     user_submit1=(By.XPATH,'//*[@id="Memadd"]//button[@class="ant-btn ant-btn-primary"][1]')#保存继续添加
     user_submit2=(By.XPATH,'//*[@id="Memadd"]//button[@class="ant-btn ant-btn-primary"][2]')#保存
@@ -71,10 +72,11 @@ class Account(WebDriver):
         self.findElements(*self.tree_root)[0].click()
         self.findElement(*self.add_dept).click()
         self.findElement(*self.add_dept_name).send_keys(name)
-        try:
-            self.findElement(*self.created_dept_group)
-        except:
-            self.findElement(*self.add_dept_group).click()
+        t.sleep(2)
+        # try:
+        #     self.findElement(*self.created_dept_group)
+        # except:
+        #     self.findElement(*self.add_dept_group).click()
         self.findElement(*self.add_dept_submit).click()
 
     def editDept(self,name):
@@ -86,14 +88,16 @@ class Account(WebDriver):
     def addUser(self,name):
         self.findElements(*self.tree_under)[-1].click()
         self.findElement(*self.add_user).click()
-        t.sleep(2)
-        self.findElements(*self.userinfo)[1].send_keys(name)
-        self.findElements(*self.userinfo)[5].send_keys("123@qq.com")
-        self.findElement(*self.user_submit1).click()
-        t.sleep(2)
-        self.findElements(*self.userinfo)[1].send_keys(name+"2")
-        self.findElements(*self.userinfo)[5].send_keys("123@qq.com")
-        self.findElement(*self.user_submit2).click()
+        num = 2
+        for i in range(num):
+            t.sleep(2)
+            self.findElements(*self.userinfo)[1].send_keys(name+str(i))
+            self.findElements(*self.userinfo)[5].send_keys("123@qq.com")
+            self.findElement(*self.userpassword).send_keys("11111111")
+            if num-1 == i:
+                self.findElement(*self.user_submit2).click()
+            else:
+                self.findElement(*self.user_submit1).click()
 
     def editUser(self,name):
         self.findElements(*self.userlist)[-1].click()
