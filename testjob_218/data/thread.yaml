@@ -1,0 +1,9 @@
+threadnum: 3
+browsers:
+  - browser: chrome
+    host: http://192.168.44.1:4444/wd/hub
+  - browser: firefox
+    host: http://192.168.44.1:6665/wd/hub
+  - browser: chrome
+    host: http://192.168.44.134:6666/wd/hub
+
